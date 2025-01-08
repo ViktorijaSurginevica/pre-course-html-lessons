@@ -34,4 +34,5 @@ body {
 }
 
 .product-img-block {
-}
+  border-right: 2px solid rgba(20, 20, 20, 100);
+  width: 540px;
