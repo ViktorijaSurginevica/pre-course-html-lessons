@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  background: #eff2f9;
+  height: 100vh;
+}
+body {
+  font-family: "Rubik", sans-serif;
+}
+.hero {
+  width: 1440px;
+  height: 1024px;
+  background: #eff2f9;
+}
