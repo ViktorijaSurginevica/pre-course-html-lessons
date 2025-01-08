@@ -21,3 +21,17 @@ body {
   box-shadow: 20px 20px 40px 0 rgba(81, 91, 117, 0.25);
   background: #fff;
 }
+
+.preview {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+}
+
+.selected {
+  box-shadow: 8px 8px 16px 0 rgba(81, 91, 117, 0.25);
+  background: #fff;
+}
+
+.product-img-block {
+}
