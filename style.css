@@ -37,3 +37,14 @@ body {
 .product-img-block {
   border-right: 2px solid rgba(20, 20, 20, 100);
   width: 540px;
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  letter-spacing: 0.01em;
+  color: rgba(20, 20, 20, 20);
+}
+.subtitle {
+  
+}
