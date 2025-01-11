@@ -1,78 +1,155 @@
+/* =================== Общие стили =================== */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-style: normal;
+  line-height: normal;
+  font-family: Rubik, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
 section {
   background: #eff2f9;
   height: 100vh;
 }
-body {
-  font-family: "Rubik", sans-serif;
-}
-.hero {
-  width: 1440px;
-  height: 1024px;
-  background: #eff2f9;
-}
+
 .card {
   width: 1170px;
   height: 800px;
-  box-shadow: 20px 20px 40px 0 rgba(81, 91, 117, 0.25);
   background: #fff;
+  box-shadow: 20px 20px 40px 0px rgba(81, 91, 117, 0.25);
   padding: 60px 0 70px;
+}
+
+/* =================== Cтили для левой части =================== */
+
+.product-image-block {
+  border-right: 2px solid rgba(20, 20, 20, 0.15);
+  width: 540px;
 }
 
 .preview {
   width: 80px;
   height: 80px;
-  background-color: #fff;
 }
 
-.selected {
-  box-shadow: 8px 8px 16px 0 rgba(81, 91, 117, 0.25);
-  background: #fff;
+.preview.selected {
+  box-shadow: 8px 8px 16px 0px rgba(81, 91, 117, 0.25);
 }
 
-.product-img-block {
-  border-right: 2px solid rgba(20, 20, 20, 100);
-  width: 540px;
+/* =================== Cтили для правой части =================== */
 
-h1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+.product-info-block {
+  padding: 0 60px;
+}
+
+.main-title {
+  color: #141414;
+  font-family: Montserrat;
   font-size: 38px;
-  letter-spacing: 0.01em;
-  color: rgba(20, 20, 20, 20);
+  font-weight: 700;
+  letter-spacing: 0.38px;
 }
+
 .subtitle {
-  font-family: "Lato", sans-serif;
-font-weight: 400;
-font-size: 16px;
-letter-spacing: 0.01em;
-color: rgba(20, 20, 20, 0.4);
+  color: rgba(20, 20, 20, 0.4);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.16px;
+  margin-bottom: 60px;
 }
 
 .text {
-  font-family: "Rubik", sans-serif;
-font-weight: 400;
-font-size: 18px;
-line-height: 1.6;
-letter-spacing: 0.01em;
-color: rgba(20, 20, 20, 0.7);
+  color: rgba(20, 20, 20, 0.7);
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.18px;
+  margin-bottom: 65px;
 }
+
+.colors {
+  margin-bottom: 65px;
+}
+
 .title {
-  font-family: "Lato", sans-serif;
-font-weight: 400;
-font-size: 16px;
-letter-spacing: 0.01em;
-text-transform: uppercase;
-color: rgba(20, 20, 20, 0.4);
+  color: rgba(20, 20, 20, 0.4);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.16px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
+
 .circle {
-  border-radius: 100%;
-  background-color: #013c7d;
-  box-shadow: 2px 2px 4px 0 rgba(81, 91, 117, 0.25);
   width: 16px;
   height: 16px;
+  filter: drop-shadow(2px 2px 4px rgba(81, 91, 117, 0.25));
+  border-radius: 50%;
+}
+
+.blue {
+  background-color: #013c7d;
+}
+.green {
+  background-color: #63cba7;
+}
+.red {
+  background-color: #d52f29;
+}
+.black {
+  background-color: #141414;
+}
+.yellow {
+  background-color: #f2c723;
+}
+
+li.selected {
+  width: 30px;
+  height: 30px;
+  padding: 7px;
+  box-shadow: 2px 2px 6px 0px rgba(81, 91, 117, 0.25);
+  border-radius: 50%;
+}
+
+.quantity {
+  width: 80px;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(20, 20, 20, 0.8);
+  border: none;
+  appearance: none;
+  background-image: url("./assets/images/ph_caret-down-bold.svg");
+  background-repeat: no-repeat;
+  background-position: right 0 top 50%;
+}
+
+.price {
+  color: rgba(20, 20, 20, 0.8);
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+}
+
+.btn {
+  height: 70px;
+  width: 100%;
+  background: #141414;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.18px;
+  margin-top: 75px;
 }
