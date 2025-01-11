@@ -69,3 +69,10 @@ letter-spacing: 0.01em;
 text-transform: uppercase;
 color: rgba(20, 20, 20, 0.4);
 }
+.circle {
+  border-radius: 100%;
+  background-color: #013c7d;
+  box-shadow: 2px 2px 4px 0 rgba(81, 91, 117, 0.25);
+  width: 16px;
+  height: 16px;
+}
