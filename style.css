@@ -50,11 +50,15 @@ section {
 }
 
 .preview-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
 }
 
 .preview {
   width: 80px;
   height: 80px;
+  display: flex;
 }
 
 .preview.selected {
