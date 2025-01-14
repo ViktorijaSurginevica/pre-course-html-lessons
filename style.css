@@ -151,6 +151,14 @@ li.selected {
   border-radius: 50%;
 }
 
+.wrapper {
+  display: flex;
+}
+
+wrapper > div {
+  flex-grow: 1;
+}
+
 .quantity {
   width: 80px;
   font-size: 20px;
