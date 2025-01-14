@@ -39,8 +39,17 @@ section {
 .product-image-block {
   border-right: 2px solid rgba(20, 20, 20, 0.15);
   min-width: 540px;
+  display: flex;
+  flex-direction: column;
 }
 .img-wrapper {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preview-wrapper {
 }
 
 .preview {
