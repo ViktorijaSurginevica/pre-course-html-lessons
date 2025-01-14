@@ -16,6 +16,10 @@ ul {
   list-style: none;
 }
 
+.colors-list {
+  display: flex;
+}
+
 section {
   background: #eff2f9;
   height: 100vh;
@@ -27,13 +31,16 @@ section {
   background: #fff;
   box-shadow: 20px 20px 40px 0px rgba(81, 91, 117, 0.25);
   padding: 60px 0 70px;
+  display: flex;
 }
 
 /* =================== Cтили для левой части =================== */
 
 .product-image-block {
   border-right: 2px solid rgba(20, 20, 20, 0.15);
-  width: 540px;
+  min-width: 540px;
+}
+.img-wrapper {
 }
 
 .preview {
