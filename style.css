@@ -12,14 +12,6 @@ body {
   font-family: Rubik, sans-serif;
 }
 
-ul {
-  list-style: none;
-}
-
-.colors-list {
-  display: flex;
-}
-
 section {
   background: #eff2f9;
   height: 100vh;
@@ -115,6 +107,17 @@ section {
   letter-spacing: 0.16px;
   text-transform: uppercase;
   margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.colors-list {
+  display: flex;
+  align-items: center;
+  max-width: 254px;
+  justify-content: space-between;
 }
 
 .circle {
